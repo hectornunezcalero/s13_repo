@@ -32,7 +32,7 @@ steps:
       - '--image'
       - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/app-info-service:${BUILD_ID}'
       - '--region'
-      - '{$_REGION}'
+      - '${_REGION}'
 
 # Configuración de imágenes a construir
 images:
